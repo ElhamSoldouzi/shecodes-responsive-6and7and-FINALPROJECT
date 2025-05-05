@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About me</title>
+    <meta
+      name="description"
+      content="Elham is a front-end engineer based in Iran ..."
+    />
+    <title>About Elham - Elham Soldouzi</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,6 +35,30 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage"
+          ><img
+            src="images/shecodes-logo.png"
+            alt="SheCodes Logo"
+            class="logo d-none d-md-block"
+          />
+          <img
+            src="images/shecodes-logo-small.jpg"
+            alt="SheCodes logo"
+            class="logo d-block d-md-none"
+          />
+        </a>
+        <ul>
+          <li><a href="index.html" title="Homepage"> Home</a></li>
+          <li class="active">
+            <a href="about.html" title="About Page">About</a>
+          </li>
+          <li><a href="work.html" title="Elham's Work">Work</a></li>
+          <li><a href="contact.html" title="Contact Elham">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="contant-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -43,15 +71,62 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="work.html" class="btn btn-branding-outline"
+            <a href="/work.html" class="btn btn-branding-outline"
               >See my projects</a
             >
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/elham.jpg" alt="" class="img-fluid elham-photo" />
+          <img
+            src="images/elham.jpg"
+            alt="Elham's Picture"
+            class="img-fluid elham-photo"
+          />
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding-outline"
+              title="Contact Elham"
+              >Contat me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:" class="mail-link mt-3" title="Email Elham"
+            >Elham Soldouzi</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://github.com" title="Github profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://instagram.com"
+            ><i class="fa-brands fa-instagram" title="Instagram Profile"></i
+          ></a>
+          <a href="https://twitter.com" title="Twitter Profile"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Elham Soldouzi,
+          <a
+            href="https://github.com/ElhamSoldouzi/shecodes-responsive-6and7and-FINALPROJECT"
+            title="source code on GitHub"
+            >open-sourced</a
+          >✌️
+        </p>
+        <!--I'm sorry but I can't add my own links -->
+      </footer>
     </div>
   </body>
 </html>

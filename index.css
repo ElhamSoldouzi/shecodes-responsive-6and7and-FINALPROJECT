@@ -90,10 +90,6 @@ p {
     font-size: 18px;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
-
   .contant-container {
     text-align: center;
     padding: 0px;
@@ -118,7 +114,7 @@ p {
 }
 
 .contant-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .contant {
